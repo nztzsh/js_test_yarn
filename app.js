@@ -30,7 +30,7 @@ mongoose.connect(process.env.DB_URI,
   if(err){
     console.log(err);
   }else{
-    console.log("Connection established");
+    console.log("Connection established!");
   }
 });
 
